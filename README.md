@@ -11,15 +11,15 @@
 
 
 ## Description
+We were tasked this week with creating a searchable weather site where you type in the city and the result populates with a 5 day forecast. We were to use a weather API (I used openweathermap) to pull the data. I was able to successfully pull the current days weather for a given city. I ran into some issues trying to get the future weather. I will continue to work on this to gain more knowledge on how to pull the future information. I also created links for default cities but ran out of time to get those links to fully function. Thank you!
 
 
+![weatherapp png](weatherapp.png)
 
-
-
-Link to github:
+## Link to github: <https://github.com/jennyrae818/weatherapp>
 
 ## LinkToSite
-<link to the live site here>
+<https://jennyrae818.github.io/weatherapp/>
 
 
 ## Questions
