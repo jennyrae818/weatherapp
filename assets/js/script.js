@@ -2,7 +2,7 @@ function getweather(e) {
   e.preventDefault()
   var mykey = "f701ab40838a5c7fb6fac49871633b85"
   var city = document.querySelector("#city").value
-  var currweather= `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${mykey}&units=imperial`
+  var currweather= `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${mykey}&units=imperial`
   var dayone = {
     temp: document.querySelector('#temp1'),
     wind: document.querySelector('#wind1'),
