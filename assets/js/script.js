@@ -42,7 +42,7 @@ function getweather(e) {
     humidity.innerText = `Humidity: ${data.main.humidity}`
     var lon = data.coord.lon
     var lat = data.coord.lat
-    var forecast= `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${mykey}&units=imperial`
+    var forecast= `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${mykey}&units=imperial`
     fetch(forecast)
     .then (res2 => res2.json()) 
     .then (data2 => {
