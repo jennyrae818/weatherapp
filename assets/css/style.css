@@ -1,9 +1,9 @@
 :root {
     --primary: #F7F9FB;
-    --secondary: #5085A5;
-    --tertiary:  #687864;
-    --light-dark: #31708E;
-    --dark: #8FB1E3;
+    --two: #5085A5;
+    --three:  #687864;
+    --dark-blue: #31708E;
+    --blue: #8FB1E3;
     --border-radius: .3rem;
   }
   
@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    color: var(--dark);
+    color: var(--blue);
     line-height: 1.5;
     font-size: 16px;
   }
@@ -30,7 +30,7 @@
   h6 {
     font-weight: 700;
     margin: 0;
-    color: var(--dark);
+    color: var(--blue);
     line-height: 1.25;
   }
   
@@ -54,16 +54,16 @@
     color: var(--primary);
     border: none;
     outline: none;
-    background-color: var(--light-dark);
-    box-shadow: 3px 3px var(--dark);
+    background-color: var(--dark-blue);
+    box-shadow: 3px 3px var(--blue);
     transform: translate(-1px, -1px);
   }
   
    .btn:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
+    background-color: var(--three);
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    box-shadow: 2px 2px var(--blue);
   }
   
   .btn-inline {
@@ -72,14 +72,14 @@
 
    .btn-back:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
+    background-color: var(--three);
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    box-shadow: 2px 2px var(--blue);
   }
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--dark);
+    background-color: var(--blue);
     color: var(--primary);
   }
   
@@ -90,28 +90,39 @@
   .hero-title {
     font-size: 3rem;
     background-color: var(--primary);
-    color: var(--dark);
+    color: var(--blue);
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
+    box-shadow: 6px 5px var(--dark-blue);
+  }
+
+  .forecast {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
   }
 
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
+    border: 3px solid var(--blue);
     border-radius: var(--border-radius);
   }
   
   .card-header {
     color: var(--primary);
-    background-color: var(--dark);
+    background-color: var(--blue);
     padding: 2.5%;
     border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
   }
   
+
   .card-body {
     padding: 2.5%;
+  }
+
+ 
   }
   
   .form-label,
@@ -130,7 +141,7 @@
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
-    border: 2px solid var(--light-dark);
+    border: 2px solid var(--dark-blue);
     border-radius: var(--border-radius);
   }
 
